@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProgrammingTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.991">
+  <properties />
+  
+  
+            <testcase name="printTitleAndSections" time="6.991" classname="com.assign.testcases.GoogleSearchTest" />
+      
+</testsuite>
