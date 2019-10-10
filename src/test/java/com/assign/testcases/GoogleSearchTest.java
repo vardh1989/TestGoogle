@@ -17,13 +17,23 @@ import org.apache.log4j.Logger;
 public class GoogleSearchTest {
 	
 	public static Logger log = Logger.getLogger("devpinoyLogger");
-	
+	//intializing the driver and Page Factory Objects
 	@BeforeSuite
 	public void setUp(){
 		
 		Page.initConfiguration();
 	}
 	
+	/**
+	 *  Test Case
+	 * @throws InterruptedException
+	 * Test Steps : 1. Open https://www.google.com/
+	 * 2. Search for “programming”
+	 * 3. Parse result page and print title 
+	 * and sections (sections are various result hits from different web sites which are listed by google on the results page 
+	 * and the titles are titles of those section please skip the google ads and maps part if there is such a result on the result page).
+	 * 4. Go to next page and do the same
+	 */
 	@Test
 	public void printTitleAndSections() throws InterruptedException {
 		
